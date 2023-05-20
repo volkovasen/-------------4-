@@ -161,20 +161,14 @@
     }
     .grid {
         display: block;
+        grid-template-columns: none;
     }
     .form {
-        width: 100%;
-        justify-self: center;
-        margin-right: 0;
+        width: 95%;
     }
     .applicatiaon__inner {
         display: flex;
     }
-    .md-textbox > input {
-        padding-left: 0px;
-        padding-left: 0;
-    }
-
 }
 @media (max-width:1190px) {
     .cursor-dot {

@@ -124,7 +124,6 @@ cursor.init();
 // menu
 window.addEventListener('scroll', () => {
     let scrollDistance = window.scrollY;
-    console.log(scrollDistance)
     document.querySelectorAll('.container').forEach((el, i) => {
         if (el.offsetTop - document.querySelector('.menu').clientHeight <= scrollDistance) {
             document.querySelectorAll('.menu a').forEach((el) => {

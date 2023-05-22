@@ -161,8 +161,8 @@ function menuOnClick() {
 
 
 // video btn
-const btnStop = document.querySelector('.case__btn');
-const wrapperVideo = document.getElementById('case-video');
+const btnOk = document.querySelector('.case__btn');
+const wrapperVideo = document.getElementById('content');
 
 btnOk.addEventListener('click',function(){
   wrapperVideo.play();

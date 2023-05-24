@@ -161,10 +161,14 @@ function menuOnClick() {
 
 
 // video btn
-const btnOk = document.querySelector('.case__btn');
-const wrapperVideo = document.getElementById('.video');
-
-btnOk.addEventListener('click',function(){
-  wrapperVideo.play();
+var playButton = document.getElementById("pbtn")
+playButton.addEventListener("click", function () {
+    if (video.paused == true) {
+        video.play()
+        playButton.innerHTML = "Пауза"
+    } else {
+        video.pause()
+        playButton.innerHTML = "Пуск"
+    }
 });
   

@@ -584,6 +584,9 @@ padding-bottom: 100px;
 }
 
 /* VIDEO */
+.body__video {
+    background: var(--white-color);
+}
 .wrapper {
     background: var(--white-color);
 }

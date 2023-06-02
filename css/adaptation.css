@@ -434,6 +434,9 @@
     .footer__btn {
         display: none;
     }
+    .main__footer {
+        margin-top: -140px;
+    }
     /* application */
     .application {
         text-align: center;

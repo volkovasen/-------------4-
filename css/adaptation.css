@@ -249,8 +249,8 @@
     }
     .footer__btn {
         padding: 130px 50px;
-        margin-top: -200px;
-        margin-left: 0;
+        margin-top: -100px;
+        /* margin-left: 0; */
         grid-column: 2/3;
     }
     .footer {
@@ -437,6 +437,9 @@
     .main__footer {
         margin-top: -140px;
     }
+    .footer__conection {
+        grid-template-rows: 0;
+    }
     /* application */
     .application {
         text-align: center;
@@ -446,7 +449,9 @@
         display: block;
     }
     .application__text {
-        margin-bottom: 80px;
+        margin-bottom: 90px;
+        text-align: center;
+        font-size: 12px;
     }
     .nav-container .hamburger-lines {
         right: 20px;
@@ -456,6 +461,9 @@
     }
     .logo__burger{
         left: -50px;
+    }
+    .application__btn {
+        
     }
     .navbar .menu-items {
         padding-left: 20px;
